@@ -18,15 +18,25 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--rosa);
 }
 
 .section_first {
   width: 80%;
   height: 35vh;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   border: 1px solid var(--violeta);
 }
+.section_first h3 {
+  bottom: 0;
+}
+.section_first-gadget {
+  height: 20px;
+  width: 30px;
+  background-color: var(--violeta);
+}
+
 .section_second {
   width: 80%;
   border: 1px solid var(--violeta);

@@ -12,6 +12,9 @@ function App() {
       
       <section className='section_first'>
        <h3>How the app works</h3>
+       <div className='section_first-gadget'>
+
+       </div>
 
       </section>
 
