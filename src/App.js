@@ -7,7 +7,31 @@ function App() {
       <header >
       
       </header>
-    <main>
+
+    <main className='main'>
+      
+      <section className='section_first'>
+       <h3>How the app works</h3>
+
+      </section>
+
+      <section className='section_second'>
+        <h2>Experience products in AR</h2>
+
+      </section>
+       
+
+
+     
+
+      <section>
+        
+      </section>
+
+      <section>
+        
+      </section>
+
       <section>
         
       </section>

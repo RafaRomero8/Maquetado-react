@@ -1,5 +1,33 @@
+:root {
+  /*colores*/
+  --violeta: #5956e9;
+  --rosa: #fab8c3;
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+.main,
+.section_first,
+.section_second {
+  display: flex;
+}
+.main {
+  height: 50vh;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--rosa);
+}
+
+.section_first {
+  width: 80%;
+  height: 35vh;
+  justify-content: center;
+  border: 1px solid var(--violeta);
+}
+.section_second {
+  width: 80%;
+  border: 1px solid var(--violeta);
 }
