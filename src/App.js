@@ -19,7 +19,10 @@ function App() {
           <div className='section_first-gadget'>
            <h3>Find your Gadget</h3>
             <img className='section_first-image' src={man}></img>
-             <button className='section_first-button'>Get started</button>
+            <div className='section_first-blurred'>
+            <button className='section_first-button'>Get started</button>
+            </div>
+             
           </div>
 
         </div>
