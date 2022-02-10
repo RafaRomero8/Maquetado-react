@@ -39,11 +39,12 @@ html {
   padding-inline-end: 16px;
   padding-inline-start: 16px;
   margin: auto;
+  outline: 1px solid;
 }
 
 .header {
   top: 0;
-  border: 1px 
+  /* outline: 1px solid; */
 }
 
 .header-content {
@@ -55,6 +56,7 @@ html {
 
 .menu {
   display: none;
+  /* outline: 1px solid; */
 }
 
 .menu ul {
