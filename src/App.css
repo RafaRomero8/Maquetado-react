@@ -65,7 +65,6 @@ h3 {
   color: var(--subtitle);
 }
 
-<<<<<<< HEAD
 .section_first-description h2,
 p {
   font-family: raleway;
@@ -122,7 +121,7 @@ p {
 .section_therd-description {
   width: 80%;
   margin-top: 70px;
-=======
+}
 .wrapper {
   max-inline-size: 1158px;
   padding-inline-end: 16px;
@@ -133,7 +132,7 @@ p {
 
 .header {
   top: 0;
-  /* outline: 1px solid; */
+  outline: 1px solid;
 }
 
 .header-content {
@@ -170,7 +169,6 @@ p {
 .section_first {
   width: 90%;
   height: 65vh;
->>>>>>> da79263fcb7d28f4ee77dc0173a072b00603e43c
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -314,10 +312,6 @@ p {
   margin-left: 240px;
   top: 225px;
 }
-<<<<<<< HEAD
-*/
-/* -------------------------------------------- */
-=======
 
 /*---------------*/
 @media screen and (min-width: 768px) {
@@ -325,4 +319,4 @@ p {
       display: block;
   }
 }
->>>>>>> da79263fcb7d28f4ee77dc0173a072b00603e43c
+
