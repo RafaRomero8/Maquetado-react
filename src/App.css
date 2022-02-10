@@ -1,4 +1,7 @@
 :root {
+  /*fuentes*/
+  --fontBase: 'raleway', sans-serif;
+  --button: bold 14px/22px var(--fontBase) ;
   /*colores*/
   --violeta: #5956e9;
   --rosa: #fab8c3;
@@ -62,6 +65,7 @@ h3 {
   color: var(--subtitle);
 }
 
+<<<<<<< HEAD
 .section_first-description h2,
 p {
   font-family: raleway;
@@ -118,6 +122,55 @@ p {
 .section_therd-description {
   width: 80%;
   margin-top: 70px;
+=======
+.wrapper {
+  max-inline-size: 1158px;
+  padding-inline-end: 16px;
+  padding-inline-start: 16px;
+  margin: auto;
+  outline: 1px solid;
+}
+
+.header {
+  top: 0;
+  /* outline: 1px solid; */
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 80px;
+}
+
+.menu {
+  display: none;
+  /* outline: 1px solid; */
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: var(--subtitle);
+  font: var(--button);
+  text-transform: capitalize;
+  
+}
+
+.menu ul a.is-active {
+  color: var(--violeta);
+}
+
+
+.section_first {
+  width: 90%;
+  height: 65vh;
+>>>>>>> da79263fcb7d28f4ee77dc0173a072b00603e43c
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -261,5 +314,15 @@ p {
   margin-left: 240px;
   top: 225px;
 }
+<<<<<<< HEAD
 */
 /* -------------------------------------------- */
+=======
+
+/*---------------*/
+@media screen and (min-width: 768px) {
+  .menu {
+      display: block;
+  }
+}
+>>>>>>> da79263fcb7d28f4ee77dc0173a072b00603e43c
