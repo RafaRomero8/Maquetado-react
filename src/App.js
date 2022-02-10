@@ -1,22 +1,18 @@
-<<<<<<< HEAD
 
 import './App.css';
 import firstMobile from './assets/firstMobile.png'
 import secondMobile from './assets/second.png'
 import therdMobile from './assets/therd.png'
+import logo from './assets/Logo.png'
+
 
 
 //https://www.binance.com/es-LA/support/faq/360002673851
-=======
-import "./App.css";
-import man from "./assets/Saly-19.png";
-import logo from "./assets/Logo.png";
->>>>>>> da79263fcb7d28f4ee77dc0173a072b00603e43c
 
 function App() {
   return (
     <>
-      <header className="header">
+      {/* <header className="header">
         <div className="wrapper">
           <div className="header-content">
             <img src={logo} alt="logo"></img>
@@ -41,9 +37,8 @@ function App() {
             <button class="button">download app</button>
           </div>
         </div>
-      </header>
+      </header> */}
 
-<<<<<<< HEAD
     <main className='main'>
     
       <section className='section_first'>
@@ -106,45 +101,10 @@ function App() {
        
       </section>
 
-    
-=======
-      <main className="main">
-        <section className="section_first">
-          <h3>How the app works</h3>
-          <section className="section_first-container">
-            <div className="section_first-back">
-              <div className="section_first-gadget">
-                <h3>Find your Gadget</h3>
-                <img className="section_first-image" src={man}></img>
-                <div className="section_first-blurred">
-                  <button className="section_first-button">Get started</button>
-                </div>
-              </div>
-            </div>
-            <div className="section_first-description">
-              <h4>Create an account</h4>
-              <h2>Discover original products</h2>
-              <p>
-                There are more than 950 categories updated daily based on
-                trending websites reviews an users rating.
-              </p>
-            </div>
-          </section>
-        </section>
-
-        <section className="section_second">
-          <h2>Experience products in AR</h2>
-        </section>
-
-        <section></section>
-
-        <section></section>
-
-        <section></section>
       </main>
->>>>>>> da79263fcb7d28f4ee77dc0173a072b00603e43c
 
       <footer></footer>
+
     </>
   );
 }
