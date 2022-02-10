@@ -19,7 +19,7 @@ function App() {
             <nav className="menu">
               <ul>
                 <li>
-                  <a class="is-active" href="#main">
+                  <a className="is-active" href="#main">
                     home
                   </a>
                 </li>
@@ -34,7 +34,7 @@ function App() {
                 </li>
               </ul>
             </nav>
-            <button class="button">download app</button>
+            <button className="button">download app</button>
           </div>
         </div>
       </header> */}

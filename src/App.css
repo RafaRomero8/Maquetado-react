@@ -33,6 +33,7 @@ html {
   max-width: 100%;
   align-items: center;
   flex-direction: column;
+  background-color: red;
 }
 .section_first {
   max-width: 100%;
@@ -117,6 +118,52 @@ p {
 .section_therd-description {
   width: 80%;
   margin-top: 70px;
+}
+/* .wrapper {
+  max-inline-size: 1158px;
+  padding-inline-end: 16px;
+  padding-inline-start: 16px;
+  margin: auto;
+  outline: 1px solid;
+}
+
+.header {
+  top: 0;
+  outline: 1px solid;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 80px;
+}
+
+.menu {
+  display: none;
+ 
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: var(--subtitle);
+  font: var(--button);
+  text-transform: capitalize;
+}
+
+.menu ul a.is-active {
+  color: var(--violeta);
+} */
+
+.section_first {
+  width: 90%;
+  height: 65vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -260,5 +307,10 @@ p {
   margin-left: 240px;
   top: 225px;
 }
-*/
-/* -------------------------------------------- */
+
+/*---------------*/
+/* @media screen and (min-width: 768px) {
+  .menu {
+    display: block;
+  }
+} */
