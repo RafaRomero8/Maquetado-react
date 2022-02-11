@@ -1,4 +1,7 @@
 :root {
+  /*fuentes*/
+  --fontBase: 'raleway', sans-serif;
+  --button: bold 14px/22px var(--fontBase) ;
   /*colores*/
   --violeta: #5956e9;
   --rosa: #fab8c3;
@@ -35,6 +38,48 @@ html {
   overflow: hidden;
   background-color: red;
 }
+
+.wrapper {
+  max-inline-size: 1158px;
+  padding-inline-end: 16px;
+  padding-inline-start: 16px;
+  margin: auto;
+}
+
+.header {
+  top: 0;
+  border: 1px 
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 80px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.menu ul a {
+  text-decoration: none;
+  color: var(--subtitle);
+  font: var(--button);
+  text-transform: capitalize;
+  
+}
+
+.menu ul a.is-active {
+  color: var(--violeta);
+}
+
 .section_first,
 .section_second {
   width: 90%;
@@ -160,4 +205,12 @@ p {
 
 .section_therd {
   margin-top: 100px;
+}
+
+
+/*---------------*/
+@media screen and (min-width: 768px) {
+  .menu {
+      display: block;
+  }
 }
