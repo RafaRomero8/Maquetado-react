@@ -1,7 +1,7 @@
 :root {
   /*fuentes*/
-  --fontBase: 'raleway', sans-serif;
-  --button: bold 14px/22px var(--fontBase) ;
+  --fontBase: "raleway", sans-serif;
+  --button: bold 14px/22px var(--fontBase);
   /*colores*/
   --violeta: #5956e9;
   --rosa: #fab8c3;
@@ -36,7 +36,6 @@ html {
   align-items: center;
   flex-direction: column;
   overflow: hidden;
-  background-color: red;
 }
 
 .wrapper {
@@ -48,7 +47,7 @@ html {
 
 .header {
   top: 0;
-  border: 1px 
+  border: 1px;
 }
 
 .header-content {
@@ -73,7 +72,6 @@ html {
   color: var(--subtitle);
   font: var(--button);
   text-transform: capitalize;
-  
 }
 
 .menu ul a.is-active {
@@ -88,6 +86,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 1em;
+  background-color: wheat;
 }
 
 .section_first h3 {
@@ -95,7 +94,8 @@ html {
 }
 
 .section_first-description,
-.section_second-description {
+.section_second-description,
+.section_therd-description {
   width: 100%;
   margin-top: 50px;
   flex-direction: column;
@@ -156,10 +156,12 @@ p {
   height: 700px;
 }
 
-.section_second-description,
-.section_therd-description {
+.section_second-description {
   width: 80%;
   margin-top: 70px;
+}
+.section_therd-description {
+  margin-top: 150px;
 }
 /* ----------------------------- */
 
@@ -177,15 +179,15 @@ p {
   margin-top: 15px;
   line-height: 1.5;
   font-weight: 500;
-  font-size: clamp(9px, 10vw, 28px);
+  font-size: clamp(9px, 9vw, 32px);
   color: var(--parrafo);
 }
 .circle {
   margin-top: 135px;
   justify-content: center;
   align-items: center;
-  width: 350px;
-  height: 350px;
+  width: 360px;
+  height: 360px;
   background-color: var(--rosa);
   border-radius: 50%;
 }
@@ -197,20 +199,16 @@ p {
 }
 
 .section_therd-image {
+  margin-right: 20px;
   width: auto;
   height: auto;
-  max-width: 400px;
+  max-width: 430px;
   max-height: 590px;
 }
-
-.section_therd {
-  margin-top: 100px;
-}
-
 
 /*---------------*/
 @media screen and (min-width: 768px) {
   .menu {
-      display: block;
+    display: block;
   }
 }

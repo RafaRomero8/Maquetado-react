@@ -55,7 +55,7 @@ function App() {
         </section>
         <section className="section_second">
           <div className="section_second-description">
-            <h2>Experience products in ARFFFFFFFF</h2>
+            <h2>Experience products in AR</h2>
             <p>
               Have you tried Augmented Reality? Stop looking at boring galleries
               and start experiences each item
@@ -68,7 +68,17 @@ function App() {
               ></img>
             </div>
           </div>
+          <div className='section_therd-description'>
+              <h4>Original platform</h4>
+          
+                 <h2>Hottest deals around the web</h2>
+            <p>Find the perfect gift or everyday goods right at your fingertips</p>      
+            <img className='section_therd-image' src={therdMobile} alt='first phone'></img>
+              
+           </div>
         </section>
+
+        
 
         {/* <div className='section_first-back'>
 
