@@ -55,7 +55,7 @@ function App() {
         </section>
         <section className="section_second">
           <div className="section_second-description">
-            <h2>Experience products in AR</h2>
+            <h2>Experience products in ARFFFFFFFF</h2>
             <p>
               Have you tried Augmented Reality? Stop looking at boring galleries
               and start experiences each item
