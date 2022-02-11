@@ -7,7 +7,6 @@ import logo from './assets/Logo.png'
 
 
 
-//https://www.binance.com/es-LA/support/faq/360002673851
 
 function App() {
   return (
@@ -43,6 +42,33 @@ function App() {
     
       <section className='section_first'>
       <h3>How the app works</h3>
+      <div className='section_first-description'>
+              <h4>Create an account</h4>
+          
+                 <h2>Discover original products</h2>
+            <p>There are more than 950 categories updated daily based on 
+              trending websites reviews an users rating.</p>      
+
+              <img className='section_first-image' src={firstMobile} alt='first phone'></img>
+             
+              
+           </div>
+         
+           </section>
+           <section className='section_second'>
+        <div className='section_second-description'>
+                 <h2>Experience products in AR</h2>
+              <p>Have you tried Augmented Reality? Stop
+                       looking at boring galleries and start
+                          experiences each item
+                  </p>
+                  <div className='circle'> 
+                  <img className='section_second-image' src={secondMobile} alt='second phone'></img>
+        
+                  </div>
+                  
+        </div>
+      </section >
        
         {/* <div className='section_first-back'>
 
@@ -58,7 +84,7 @@ function App() {
 
         </div> */}
                     
-            <div className='section_first-description'>
+            {/* <div className='section_first-description'>
               <h4>Create an account</h4>
           
                  <h2>Discover original products</h2>
@@ -92,14 +118,10 @@ function App() {
             <p>Find the perfect gift or everyday goods right at your fingertips</p>      
             <img className='section_therd-image' src={therdMobile} alt='first phone'></img>
               
- 
            </div>
-           
-
-      </section>
-          
-       
-      </section>
+      </section>  */}
+         
+     
 
       </main>
 
