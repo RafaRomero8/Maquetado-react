@@ -1,15 +1,13 @@
-
-import './App.css';
-import firstMobile from './assets/firstMobile.png'
-import secondMobile from './assets/second.png'
-import therdMobile from './assets/therd.png'
-import logo from './assets/Logo.png'
-
+import "./App.css";
+import firstMobile from "./assets/firstMobile.png";
+import secondMobile from "./assets/second.png";
+import therdMobile from "./assets/therd.png";
+import logo from "./assets/Logo.png";
 
 function App() {
   return (
     <>
-      {/* <header className="header">
+      <header className="header">
         <div className="wrapper">
           <div className="header-content">
             <img src={logo} alt="logo"></img>
@@ -34,41 +32,44 @@ function App() {
             <button className="button">download app</button>
           </div>
         </div>
-      </header> */}
+      </header>
 
-    <main className='main'>
-    
-      <section className='section_first'>
-      <h3>How the app works</h3>
-      <div className='section_first-description'>
-              <h4>Create an account</h4>
-          
-                 <h2>Discover original products</h2>
-            <p>There are more than 950 categories updated daily based on 
-              trending websites reviews an users rating.</p>      
+      <main className="main">
+        <section className="section_first">
+          <h3>How the app works</h3>
+          <div className="section_first-description">
+            <h4>Create an account</h4>
 
-              <img className='section_first-image' src={firstMobile} alt='first phone'></img>
-             
-              
-           </div>
-         
-           </section>
-           <section className='section_second'>
-        <div className='section_second-description'>
-                 <h2>Experience products in AR</h2>
-              <p>Have you tried Augmented Reality? Stop
-                       looking at boring galleries and start
-                          experiences each item
-                  </p>
-                  <div className='circle'> 
-                  <img className='section_second-image' src={secondMobile} alt='second phone'></img>
-        
-                  </div>
-                  
-        </div>
-      </section >
-      
-       
+            <h2>Discover original products</h2>
+            <p>
+              There are more than 950 categories updated daily based on trending
+              websites reviews an users rating.
+            </p>
+
+            <img
+              className="section_first-image"
+              src={firstMobile}
+              alt="first phone"
+            ></img>
+          </div>
+        </section>
+        <section className="section_second">
+          <div className="section_second-description">
+            <h2>Experience products in AR</h2>
+            <p>
+              Have you tried Augmented Reality? Stop looking at boring galleries
+              and start experiences each item
+            </p>
+            <div className="circle">
+              <img
+                className="section_second-image"
+                src={secondMobile}
+                alt="second phone"
+              ></img>
+            </div>
+          </div>
+        </section>
+
         {/* <div className='section_first-back'>
 
           <div className='section_first-gadget'>
@@ -82,8 +83,8 @@ function App() {
           </div>
 
         </div> */}
-                    
-            {/* <div className='section_first-description'>
+
+        {/* <div className='section_first-description'>
               <h4>Create an account</h4>
           
                  <h2>Discover original products</h2>
@@ -119,13 +120,9 @@ function App() {
               
            </div>
       </section>  */}
-         
-     
-
       </main>
 
       <footer></footer>
-
     </>
   );
 }
