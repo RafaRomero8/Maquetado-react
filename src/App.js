@@ -6,8 +6,6 @@ import therdMobile from './assets/therd.png'
 import logo from './assets/Logo.png'
 
 
-
-
 function App() {
   return (
     <>
@@ -69,6 +67,7 @@ function App() {
                   
         </div>
       </section >
+      
        
         {/* <div className='section_first-back'>
 
