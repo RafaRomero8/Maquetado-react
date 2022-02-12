@@ -3,6 +3,8 @@ import firstMobile from "./assets/firstMobile.png";
 import secondMobile from "./assets/second.png";
 import therdMobile from "./assets/therd.png";
 import logo from "./assets/Logo.png";
+import fourthMobile from "./assets/phonePink.png";
+
 
 function App() {
   return (
@@ -76,9 +78,19 @@ function App() {
             <img className='section_therd-image' src={therdMobile} alt='first phone'></img>
               
            </div>
+           <div className='section_fourth-description'>
+               
+           </div>
+           
+        </section>
+        <section className='section_third'>
+        <h2>Save time & money with exclusive offers from top stores</h2>
+                 <img className='section_fourth-image' src={fourthMobile} alt='first phone'></img>
+                 
+
         </section>
 
-        
+      
 
         {/* <div className='section_first-back'>
 

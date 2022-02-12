@@ -21,10 +21,11 @@ html {
 .main,
 .section_first,
 .section_second,
-.section_therd,
+.section_third,
 .section_first-description,
 .section_second-description,
 .section_therd-description,
+.section_fourth-description,
 .section_first-blurred,
 .circle {
   display: flex;
@@ -86,7 +87,15 @@ html {
   justify-content: center;
   align-items: center;
   gap: 1em;
-  background-color: wheat;
+}
+.section_third {
+  width: 100%;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: var(--rosa);
 }
 
 .section_first h3 {
@@ -103,6 +112,7 @@ html {
   align-items: center;
   gap: 1em;
 }
+
 .section_first h3 {
   font-size: clamp(9px, 10vw, 30px);
   font-family: raleway;
@@ -130,6 +140,13 @@ p {
 .section_first-description h4,
 .section_therd-description h4 {
   font-size: clamp(8px, 10vw, 28px);
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--violeta);
+}
+.section_third h2 {
+  text-align: center;
+  font-size: clamp(8px, 12vw, 50px);
   font-weight: bold;
   margin-bottom: 10px;
   color: var(--violeta);
@@ -204,6 +221,13 @@ p {
   height: auto;
   max-width: 430px;
   max-height: 590px;
+}
+.section_fourth-image {
+  margin-right: 20px;
+  width: auto;
+  height: auto;
+  max-width: 650px;
+  max-height: 730px;
 }
 
 /*---------------*/
