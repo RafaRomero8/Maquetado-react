@@ -67,7 +67,7 @@ html {
   border: 1px;
 }
 
-.header-content {
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,11 +95,11 @@ html {
   color: var(--violeta);
 }
 
-.header-description {
+.header-main {
   padding-block-start: 16px;
 }
 
-.header-description-content {
+.header-content {
   display: flex;
   flex-direction: column;
   gap: 38px;
@@ -114,16 +114,45 @@ text-align: center;
   block-size: auto;
 }
 
-.header-description h1 {
+.header-main h1 {
   margin: 0;
 }
-/* .hero h1 span:nth-of-type(1){ */
-.header-description h1 span:first-child{
+
+.header-main h1 span:first-child{
   display: block;
+} 
+
+.copyright{
+  text-align: center;
+  padding-block-end: 24px;
+  gap: 16px;
+  font-weight: 5;
 }
 
-.header-description a{
-  
+.copyright span{
+  font-weight: bold;
+}
+/* .footer-description{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+} */
+.footer-content {
+  padding-block-start: 16px;
+}
+.footer-description h1{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-image{
+  text-align: center;
+}
+
+.footer-image img{
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 .section_first,
@@ -282,12 +311,15 @@ p {
   .menu {
     display: block;
   }
-
-  .header-description {
-    display: flex;
-    gap: 32px;
+  .header-nav a{
+    display: none;
   }
-  .header-description-content{
+  .header-main {
+    display: flex;
+    gap: 32px; 
+  }
+  
+  .header-content{
     order: 1;
     max-inline-size: 450px;
   }
@@ -297,14 +329,41 @@ p {
     flex: 1;
   }
 
-  .header-content a{
+  .header-nav a{
     display: block;
   }
+
+  .footer-content {
+    display: flex;
+    gap: 32px;
+  }
+
+  .footer-description{
+    order: 1;
+    max-inline-size: 450px;
+  }
+
+  .footer-image{
+    order: 2;
+    text-align: end;
+    flex: 1;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
   .header-image img {
       inline-size: 500px;
       block-size: 504px;
+  }
+
+  .footer-image img{
+    inline-size: 500px;
+    block-size: 504px;
+  }
+
+  .footer {
+    margin-block-start: 40px;
+    margin-block-end: 40px;
   }
 }

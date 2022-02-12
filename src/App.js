@@ -3,16 +3,16 @@ import firstMobile from "./assets/firstMobile.png";
 import secondMobile from "./assets/second.png";
 import therdMobile from "./assets/therd.png";
 import Saly4 from "./assets/Sally-4.png";
+import Saly6 from "./assets/Saly-6.png";
 import logo from "./assets/Logo.png";
 import fourthMobile from "./assets/phonePink.png";
-
 
 function App() {
   return (
     <>
       <header className="header">
         <div className="wrapper">
-          <div className="header-content">
+          <div className="header-nav">
             <img src={logo} alt="logo"></img>
             <nav className="menu">
               <ul>
@@ -36,12 +36,14 @@ function App() {
               download app
             </a>
           </div>
-          <div className="header-description">
+          <section className="header-main">
             <div className="header-image">
               <img src={Saly4} alt="Sally-4"></img>
             </div>
-            <div className="header-description-content">
-              <h1>Shopping App for Gadgets and Gifs</h1>
+            <div className="header-content">
+              <h1>
+                <span>Shopping App for Gadgets and Gifs</span>
+              </h1>
               <p>
                 Get 10% off your first order when you spend over £40 on any
                 product!
@@ -50,7 +52,7 @@ function App() {
                 download app
               </a>
             </div>
-          </div>
+          </section>
         </div>
       </header>
 
@@ -88,27 +90,29 @@ function App() {
               ></img>
             </div>
           </div>
-          <div className='section_therd-description'>
-              <h4>Original platform</h4>
-          
-                 <h2>Hottest deals around the web</h2>
-            <p>Find the perfect gift or everyday goods right at your fingertips</p>      
-            <img className='section_therd-image' src={therdMobile} alt='first phone'></img>
-              
-           </div>
-           <div className='section_fourth-description'>
-               
-           </div>
-           
-        </section>
-        <section className='section_third'>
-        <h2>Save time & money with exclusive offers from top stores</h2>
-                 <img className='section_fourth-image' src={fourthMobile} alt='first phone'></img>
-                 
+          <div className="section_therd-description">
+            <h4>Original platform</h4>
 
+            <h2>Hottest deals around the web</h2>
+            <p>
+              Find the perfect gift or everyday goods right at your fingertips
+            </p>
+            <img
+              className="section_therd-image"
+              src={therdMobile}
+              alt="first phone"
+            ></img>
+          </div>
+          <div className="section_fourth-description"></div>
         </section>
-
-      
+        <section className="section_third">
+          <h2>Save time & money with exclusive offers from top stores</h2>
+          <img
+            className="section_fourth-image"
+            src={fourthMobile}
+            alt="first phone"
+          ></img>
+        </section>
 
         {/* <div className='section_first-back'>
 
@@ -162,7 +166,23 @@ function App() {
       </section>  */}
       </main>
 
-      <footer></footer>
+      <footer className="footer">
+        <div className="wrapper">
+          <section className="footer-content">
+            <div className="footer-description">
+              <h1>
+                Hey! Follow us on social media so you don’t miss any offer.
+              </h1>
+            </div>
+            <div className="footer-image">
+              <img src={Saly6} alt="saly-6"></img>
+            </div>
+          </section>
+          <div className="copyright">
+            <span>Copywright 2021</span> website.com
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
