@@ -26,7 +26,6 @@ html {
 .section_second-description,
 .section_therd-description,
 .section_fourth-description,
-.section_first-blurred,
 .circle {
   display: flex;
 }
@@ -234,5 +233,30 @@ p {
 @media screen and (min-width: 768px) {
   .menu {
     display: block;
+  }
+}
+@media (min-width: 768px) {
+  .main {
+    height: fit-content;
+    max-width: 100%;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: aqua;
+  }
+  .section_first {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--violeta);
+  }
+  .section_first-description {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .section_first-desktop {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
   }
 }
