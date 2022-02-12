@@ -1,7 +1,7 @@
 :root {
   /*fuentes*/
-  --fontBase: "raleway", sans-serif;
-  --button: bold 14px/22px var(--fontBase);
+  --fontBase: 'raleway', sans-serif;
+  --button: bold 14px/22px;
   /*colores*/
   --violeta: #5956e9;
   --rosa: #fab8c3;
@@ -43,6 +43,22 @@ html {
   padding-inline-end: 16px;
   padding-inline-start: 16px;
   margin: auto;
+  /* outline: solid blue; */
+}
+
+.button {
+  background: var(--rosa);
+  color: var(--violeta);
+  font: var(--button);
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  border-radius: 4px ;
+  text-transform: capitalize;
+  border: none;
+  text-decoration: none;
+  text-align: center;
 }
 
 .header {
@@ -76,6 +92,37 @@ html {
 
 .menu ul a.is-active {
   color: var(--violeta);
+}
+
+.header-description {
+  padding-block-start: 16px;
+}
+
+.header-description-content {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.header-image {
+text-align: center;
+}
+
+.header-image img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.header-description h1 {
+  margin: 0;
+}
+/* .hero h1 span:nth-of-type(1){ */
+.header-description h1 span:first-child{
+  display: block;
+}
+
+.header-description a{
+  
 }
 
 .section_first,
@@ -233,6 +280,31 @@ p {
 @media screen and (min-width: 768px) {
   .menu {
     display: block;
+  }
+
+  .header-description {
+    display: flex;
+    gap: 32px;
+  }
+  .header-description-content{
+    order: 1;
+    max-inline-size: 450px;
+  }
+  .header-image {
+    order: 2;
+    text-align: end;
+    flex: 1;
+  }
+
+  .header-content a{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-image img {
+      inline-size: 500px;
+      block-size: 504px;
   }
 }
 @media (min-width: 768px) {

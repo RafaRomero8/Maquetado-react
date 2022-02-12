@@ -3,6 +3,7 @@ import "./App.css";
 import firstMobile from "./assets/firstMobile.png";
 import secondMobile from "./assets/second.png";
 import therdMobile from "./assets/therd.png";
+import Saly4 from "./assets/Sally-4.png";
 import logo from "./assets/Logo.png";
 import fourthMobile from "./assets/phonePink.png";
 
@@ -32,7 +33,24 @@ function App() {
                 </li>
               </ul>
             </nav>
-            <button className="button">download app</button>
+            <a href="https://www.google.com/" className="button">
+              download app
+            </a>
+          </div>
+          <div className="header-description">
+            <div className="header-image">
+              <img src={Saly4} alt="Sally-4"></img>
+            </div>
+            <div className="header-description-content">
+              <h1>Shopping App for Gadgets and Gifs</h1>
+              <p>
+                Get 10% off your first order when you spend over £40 on any
+                product!
+              </p>
+              <a href="https://www.google.com/" className="button">
+                download app
+              </a>
+            </div>
           </div>
         </div>
       </header>
