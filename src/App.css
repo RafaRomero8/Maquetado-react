@@ -242,7 +242,7 @@ p {
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    background-color: aqua;
+    background-color: aquamarine;
   }
   .section_first {
     width: 90%;
