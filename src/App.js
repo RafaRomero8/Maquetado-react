@@ -38,8 +38,7 @@ function App() {
             </a>
           </div>
           <section className="header-main">
-          <div className='circle_desktop'>
-             </div>
+         
             <div className="header-image">
               <img src={Saly4} alt="Sally-4"></img>
             </div>
