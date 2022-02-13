@@ -47,7 +47,7 @@ html {
   /* outline: solid blue; */
 }
 
-.button{
+.button {
   background: var(--rosa);
   color: var(--violeta);
   font: var(--button);
@@ -62,40 +62,40 @@ html {
   text-align: center;
 }
 
-.header{
+.header {
   top: 0;
   border: 1px;
 }
 
-.header-nav{
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   block-size: 80px;
 }
 
-.menu{
+.menu {
   display: none;
 }
 
-.menu ul{
+.menu ul {
   display: flex;
   list-style: none;
   gap: 40px;
 }
 
-.menu ul a{
+.menu ul a {
   text-decoration: none;
   color: var(--subtitle);
   font: var(--button);
   text-transform: capitalize;
 }
 
-.menu ul a.is-active{
+.menu ul a.is-active {
   color: var(--violeta);
 }
 
-.header-main{
+.header-main {
   padding-block-start: 16px;
 }
 
@@ -140,7 +140,7 @@ html {
 .footer-content {
   display: flex;
   align-items: center;
-  background-color: red;
+  background-color: aqua;
 }
 .footer-content {
   padding-block-start: 16px;
