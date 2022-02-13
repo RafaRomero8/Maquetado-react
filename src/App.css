@@ -117,51 +117,19 @@ html {
 .header-main h1 {
   margin: 0;
 }
-<<<<<<< HEAD
-
-.header-main h1 span:first-child{
-=======
 /* .hero h1 span:nth-of-type(1){ */
 .header-description h1 span:first-child {
->>>>>>> develop
   display: block;
-} 
+}
 
-.copyright{
+.copyright {
   text-align: center;
   padding-block-end: 24px;
   gap: 16px;
   font-weight: 5;
 }
 
-<<<<<<< HEAD
-.copyright span{
-  font-weight: bold;
-}
-/* .footer-description{
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-} */
-.footer-content {
-  padding-block-start: 16px;
-}
-.footer-description h1{
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.footer-image{
-  text-align: center;
-}
-
-.footer-image img{
-  max-inline-size: 100%;
-  block-size: auto;
-=======
 .header-description a {
->>>>>>> develop
 }
 
 .section_first,
@@ -321,12 +289,12 @@ p {
   .menu {
     display: block;
   }
-  .header-nav a{
+  .header-nav a {
     display: none;
   }
   .header-main {
     display: flex;
-    gap: 32px; 
+    gap: 32px;
   }
   .header-description-content {
     order: 1;
@@ -347,17 +315,16 @@ p {
     gap: 32px;
   }
 
-  .footer-description{
+  .footer-description {
     order: 1;
     max-inline-size: 450px;
   }
 
-  .footer-image{
+  .footer-image {
     order: 2;
     text-align: end;
     flex: 1;
   }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -366,7 +333,7 @@ p {
     block-size: 504px;
   }
 
-  .footer-image img{
+  .footer-image img {
     inline-size: 500px;
     block-size: 504px;
   }

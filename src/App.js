@@ -103,26 +103,6 @@ function App() {
               ></img>
             </div>
           </div>
-<<<<<<< HEAD
-          <div className='section_therd-description'>
-              <h4>Original platform</h4>
-          
-                 <h2>Hottest deals around the web</h2>
-            <p>Find the perfect gift or everyday goods right at your fingertips</p>      
-            <img className='section_therd-image' src={therdMobile} alt='first phone'></img>
-              
-           </div>
-           <div className='section_fourth-description'>
-               
-           </div>
-           
-        </section>
-        <section className='section_third'>
-        <h2>Save time & money with exclusive offers from top stores</h2>
-                 <img className='section_fourth-image' src={fourthMobile} alt='first phone'></img>
-                 
-        </section>
-=======
           <div className="section_therd-description">
             <h4>Original platform</h4>
 
@@ -197,7 +177,6 @@ function App() {
               
            </div>
       </section>  */}
->>>>>>> origin/develop
       </main>
 
       <footer className="footer">
