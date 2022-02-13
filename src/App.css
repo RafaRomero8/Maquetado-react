@@ -140,7 +140,7 @@ html {
 .footer-content {
   display: flex;
   align-items: center;
-  background-color: green;
+  background-color: red;
 }
 .footer-content {
   padding-block-start: 16px;
