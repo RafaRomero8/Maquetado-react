@@ -38,6 +38,8 @@ function App() {
             </a>
           </div>
           <section className="header-main">
+          <div className='circle_desktop'>
+             </div>
             <div className="header-image">
               <img src={Saly4} alt="Sally-4"></img>
             </div>
@@ -53,6 +55,7 @@ function App() {
                 download app
               </a>
             </div>
+            
           </section>
         </div>
       </header>
@@ -130,7 +133,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <div className="wrapper">
+        <div className="wrapper_dos">
           <section className="footer-content">
             <div className="footer-description">
               <h1>

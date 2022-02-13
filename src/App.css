@@ -138,6 +138,11 @@ html {
   gap: 16px;
 } */
 .footer-content {
+  display: flex;
+  align-items: center;
+  background-color: green;
+}
+.footer-content {
   padding-block-start: 16px;
 }
 .footer-description h1 {
