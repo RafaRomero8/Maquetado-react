@@ -61,32 +61,40 @@ function App() {
         <section className="section_first">
           <h3>How the app works</h3>
           <div className="section_first-description">
-           
-           
+         
+            <div className='section_first-desktop'>
+        
             <h4>Create an account</h4>
             <h2>Discover original products</h2>
             <p>
               There are more than 950 categories updated daily based on trending
               websites reviews an users rating.
             </p>
-            <div className='circle_desktop'> </div>
+            </div>
+            <div className='circle_desktop'>
+             </div>
             
-           
             <img
               className="section_first-image"
               src={firstMobile}
               alt="first phone"
             ></img>
-            
+              
           </div>
         </section>
         <section className="section_second">
           <div className="section_second-description">
+          <div className='circle_desktop-one'>
+             </div>
+             <div className='circle_desktop-two'>
+             </div>
             <h2>Experience products in AR</h2>
             <p>
               Have you tried Augmented Reality? Stop looking at boring galleries
               and start experiences each item
             </p>
+            <div className='circle_desktop-three'>
+             </div>
             <div className="circle">
               <img
                 className="section_second-image"
