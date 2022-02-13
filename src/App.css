@@ -67,7 +67,7 @@ html {
   border: 1px;
 }
 
-.header-content {
+.header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -95,11 +95,11 @@ html {
   color: var(--violeta);
 }
 
-.header-description {
+.header-main {
   padding-block-start: 16px;
 }
 
-.header-description-content {
+.header-content {
   display: flex;
   flex-direction: column;
   gap: 38px;
@@ -114,15 +114,45 @@ html {
   block-size: auto;
 }
 
-.header-description h1 {
+.header-main h1 {
   margin: 0;
 }
-/* .hero h1 span:nth-of-type(1){ */
-.header-description h1 span:first-child {
+
+.header-main h1 span:first-child {
   display: block;
 }
 
-.header-description a {
+.copyright {
+  text-align: center;
+  padding-block-end: 24px;
+  gap: 16px;
+  font-weight: 5;
+}
+
+.copyright span {
+  font-weight: bold;
+}
+/* .footer-description{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+} */
+.footer-content {
+  padding-block-start: 16px;
+}
+.footer-description h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-image {
+  text-align: center;
+}
+
+.footer-image img {
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 .section_first,
@@ -282,8 +312,10 @@ p {
   .menu {
     display: block;
   }
-
-  .header-description {
+  .header-nav a {
+    display: none;
+  }
+  .header-main {
     display: flex;
     gap: 32px;
   }
@@ -300,12 +332,38 @@ p {
   .header-content a {
     display: block;
   }
+
+  .footer-content {
+    display: flex;
+    gap: 32px;
+  }
+
+  .footer-description {
+    order: 1;
+    max-inline-size: 450px;
+  }
+
+  .footer-image {
+    order: 2;
+    text-align: end;
+    flex: 1;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .header-image img {
     inline-size: 500px;
     block-size: 504px;
+  }
+
+  .footer-image img {
+    inline-size: 500px;
+    block-size: 504px;
+  }
+
+  .footer {
+    margin-block-start: 40px;
+    margin-block-end: 40px;
   }
 }
 @media (min-width: 768px) {
@@ -397,6 +455,13 @@ p {
     left: 200px;
   }
   .circle_desktop-two {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: var(--violeta);
+    border-radius: 50%;
+    top: 370px;
+    left: 200px;
   }
   .circle_desktop-three {
   }
