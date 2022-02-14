@@ -304,15 +304,17 @@ p {
   max-width: 430px;
   max-height: 590px;
 }
-.section_fourth-image {
-  margin-right: 20px;
-  width: auto;
-  height: auto;
-  max-width: 650px;
-  max-height: 730px;
+.section_third button {
+  visibility: hidden;
 }
 
-/*---------------*/
+.section_fourth-image {
+  margin-top: -90px;
+  width: 680px;
+  height: 760px;
+}
+
+/*------------------------------------------------------*/
 @media screen and (min-width: 768px) {
   .menu {
     display: block;
@@ -372,9 +374,6 @@ p {
   }
 }
 @media (min-width: 768px) {
-  .section_first {
-    border: 1px solid var(--violeta);
-  }
   .section_first-description {
     margin-top: 5px;
     position: relative;
@@ -393,7 +392,7 @@ p {
   .section_first-description p {
     text-align: left;
     margin-top: 10px;
-    font-size: clamp(11px, 20vw, 17px);
+    font-size: clamp(9px, 15vw, 22px);
   }
   .section_first-desktop {
     /* width: 320px; */
@@ -402,8 +401,8 @@ p {
   }
   .circle_desktop {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     background-color: var(--violeta);
     border-radius: 50%;
     top: 390px;
@@ -414,35 +413,34 @@ p {
     width: 350px;
     height: 480px;
   }
-  .section_second {
-    background-color: red;
-  }
+
   .section_second-description {
+    position: absolute;
     width: 100%;
-    height: 400px;
+    height: 480px;
     border-radius: 20px;
     position: relative;
     margin-top: 15px;
-    background-color: var(--blanquesco);
+    background: linear-gradient(to left, #edeef6, #dcdefe);
   }
   .section_second-description h2,
   .section_second-description p {
     text-align: left;
-    margin-right: 250px;
+    margin-right: 310px;
   }
   .section_second-description h2 {
     font-size: clamp(2em, 20vw, 2.5em);
     color: var(--subtitle);
   }
   .section_second-description p {
-    width: 370px;
-    margin-top: 15px;
-    font-size: clamp(10px, 10vw, 18px);
+    margin-top: 0px;
+    /* font-size: clamp(10px, 20vw, 17px); */
+    font-size: 29px;
   }
   .circle {
     position: absolute;
     margin-top: 10px;
-    right: 20px;
+    right: 70px;
     width: 250px;
     height: 250px;
   }
@@ -452,22 +450,94 @@ p {
   }
   .circle_desktop-one {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
     background-color: var(--rosa);
     border-radius: 50%;
-    top: 370px;
+    top: 430px;
     left: 200px;
   }
   .circle_desktop-two {
     position: absolute;
     width: 50px;
     height: 50px;
-    background-color: var(--violeta);
+    background-color: var(--rosa);
     border-radius: 50%;
-    top: 370px;
-    left: 200px;
+    top: 40px;
+    right: 350px;
   }
   .circle_desktop-three {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: var(--violeta);
+    border-radius: 50%;
+    top: 65px;
+    right: 30px;
+  }
+  .section_therd-description {
+    flex-direction: row-reverse;
+  }
+  .section_therd-desktop h4,
+  .section_therd-desktop h2,
+  .section_therd-desktop p {
+    text-align: left;
+  }
+
+  .section_therd-description p {
+    margin-top: 15px;
+    font-size: 29px;
+  }
+  .section_therd-description h4 {
+    font-size: clamp(8px, 10vw, 21px);
+    font-weight: bold;
+  }
+  .section_therd-desktop {
+    display: flex;
+    flex-direction: column;
+  }
+  .section_therd-image {
+    width: 350px;
+    height: 480px;
+  }
+  .section_third {
+    position: relative;
+    flex-direction: row;
+    width: 80%;
+    height: 400px;
+    border-radius: 20px;
+  }
+  .section_third h2 {
+    text-align: left;
+    font-size: clamp(8px, 12vw, 35px);
+  }
+  .section_third-description button {
+    visibility: visible;
+    /* visibility: visible/hidden; */
+    /* display: none/block; */
+    border: none;
+    cursor: pointer;
+    background: center;
+    padding: 15px 70px 15px 70px;
+    border-radius: 10px;
+    text-align: left;
+    font-family: raleway;
+    font-weight: bold;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    color: var(--blanquesco);
+    background-color: var(--violeta);
+  }
+
+  .section_third-description {
+    margin-left: 50px;
+  }
+
+  .section_fourth-image {
+    margin-bottom: 60px;
+    margin-right: -100px;
+    width: 580px;
+    height: 600px;
   }
 }

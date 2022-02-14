@@ -6,7 +6,7 @@ import therdMobile from "./assets/therd.png";
 import Saly4 from "./assets/Sally-4.png";
 import Saly6 from "./assets/Saly-6.png";
 import logo from "./assets/Logo.png";
-import fourthMobile from "./assets/phonePink.png";
+import fourthMobile from "./assets/Saly-24.png";
 
 function App() {
   return (
@@ -38,8 +38,7 @@ function App() {
             </a>
           </div>
           <section className="header-main">
-          <div className='circle_desktop'>
-             </div>
+         
             <div className="header-image">
               <img src={Saly4} alt="Sally-4"></img>
             </div>
@@ -107,12 +106,13 @@ function App() {
             </div>
           </div>
           <div className="section_therd-description">
+            <div className='section_therd-desktop'>
             <h4>Original platform</h4>
-
-            <h2>Hottest deals around the web</h2>
-            <p>
+                <h2>Hottest deals around the web</h2>
+               <p>
               Find the perfect gift or everyday goods right at your fingertips
-            </p>
+           </p>               
+            </div>
             <img
               className="section_therd-image"
               src={therdMobile}
@@ -122,11 +122,16 @@ function App() {
           <div className="section_fourth-description"></div>
         </section>
         <section className="section_third">
-          <h2>Save time & money with exclusive offers from top stores</h2>
+          
+          <div className ="section_third-description">
+            <h2>Save time & money with exclusive offers from top stores</h2>
+            <button >Download App</button>
+          </div>
+          
           <img
             className="section_fourth-image"
             src={fourthMobile}
-            alt="first phone"
+            alt="four phone"
           ></img>
         </section>
 
