@@ -40,7 +40,7 @@ html {
 }
 
 .wrapper {
-  max-inline-size: 1158px;
+  max-inline-size: 1150px;
   padding-inline-end: 16px;
   padding-inline-start: 16px;
   margin: auto;
@@ -83,6 +83,7 @@ html {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  width: 50%;
 }
 .header {
   top: 0;
@@ -120,6 +121,7 @@ html {
 .header-main {
   padding-block-start: 16px;
   align-items: center;
+  margin: 8px;
 }
 
 .header-content {
@@ -139,6 +141,10 @@ html {
 
 .header-main h1 {
   margin: 0;
+}
+
+.header-content h1 span{
+  font-size: 40px;
 }
 
 .header-main h1 span:first-child {
@@ -350,9 +356,10 @@ p {
     order: 1;
     max-inline-size: 450px;
   }
+
   .header-image{
     order: 2;
-    text-align: end;
+    text-align: center;
     flex: 1;
   }
 
