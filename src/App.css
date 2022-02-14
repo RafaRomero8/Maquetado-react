@@ -44,6 +44,7 @@ html {
   padding-inline-end: 16px;
   padding-inline-start: 16px;
   margin: auto;
+  margin-bottom: 16px;
   /* outline: solid blue; */
 }
 
@@ -55,48 +56,69 @@ html {
   padding-inline-end: 24px;
   padding-block-start: 13px;
   padding-block-end: 13px;
-  border-radius: 4px;
+  border-radius: 10px;
   text-transform: capitalize;
   border: none;
   text-decoration: none;
   text-align: center;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-
+.button-secondary{
+  font: var(--button);
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: var(--blanquesco);
+  background-color: var(--violeta);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 .header {
   top: 0;
-  border: 1px;
 }
 
-.header-nav {
+.header-nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   block-size: 80px;
 }
 
-.menu {
+.menu{
   display: none;
 }
 
-.menu ul {
+.menu ul{
   display: flex;
   list-style: none;
   gap: 40px;
 }
 
-.menu ul a {
+.menu ul a{
   text-decoration: none;
   color: var(--subtitle);
-  font: var(--button);
+  /* font: var(--button); */
   text-transform: capitalize;
 }
 
-.menu ul a.is-active {
+.menu ul a.is-active{
   color: var(--violeta);
 }
 
 .header-main {
   padding-block-start: 16px;
+  align-items: center;
 }
 
 .header-content {
@@ -132,16 +154,14 @@ html {
 .copyright span {
   font-weight: bold;
 }
-/* .footer-description{
+.footer-description{
   display: flex;
   flex-direction: column;
   gap: 16px;
-} */
+}
 .footer-content {
   display: flex;
   align-items: center;
-  
-  background-color: aqua;
   padding-block-start: 16px;
 }
 
@@ -316,27 +336,27 @@ p {
 
 /*------------------------------------------------------*/
 @media screen and (min-width: 768px) {
-  .menu {
+  .menu{
     display: block;
   }
-  .header-nav a {
+  .header-nav a{
     display: none;
   }
-  .header-main {
+  .header-main{
     display: flex;
     gap: 32px;
   }
-  .header-description-content {
+  .header-description-content{
     order: 1;
     max-inline-size: 450px;
   }
-  .header-image {
+  .header-image{
     order: 2;
     text-align: end;
     flex: 1;
   }
 
-  .header-content a {
+  .header-content a{
     display: block;
   }
 
@@ -345,12 +365,12 @@ p {
     gap: 32px;
   }
 
-  .footer-description {
+  .footer-description{
     order: 1;
     max-inline-size: 450px;
   }
 
-  .footer-image {
+  .footer-image{
     order: 2;
     text-align: end;
     flex: 1;
@@ -373,6 +393,7 @@ p {
     margin-block-end: 40px;
   }
 }
+
 @media (min-width: 768px) {
   .section_first-description {
     margin-top: 5px;

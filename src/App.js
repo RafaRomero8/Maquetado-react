@@ -38,7 +38,6 @@ function App() {
             </a>
           </div>
           <section className="header-main">
-         
             <div className="header-image">
               <img src={Saly4} alt="Sally-4"></img>
             </div>
@@ -50,11 +49,10 @@ function App() {
                 Get 10% off your first order when you spend over £40 on any
                 product!
               </p>
-              <a href="https://www.google.com/" className="button">
+              <a href="https://www.google.com/" className="button-secondary">
                 download app
               </a>
             </div>
-            
           </section>
         </div>
       </header>
@@ -63,40 +61,33 @@ function App() {
         <section className="section_first">
           <h3>How the app works</h3>
           <div className="section_first-description">
-         
-            <div className='section_first-desktop'>
-        
-            <h4>Create an account</h4>
-            <h2>Discover original products</h2>
-            <p>
-              There are more than 950 categories updated daily based on trending
-              websites reviews an users rating.
-            </p>
+            <div className="section_first-desktop">
+              <h4>Create an account</h4>
+              <h2>Discover original products</h2>
+              <p>
+                There are more than 950 categories updated daily based on
+                trending websites reviews an users rating.
+              </p>
             </div>
-            <div className='circle_desktop'>
-             </div>
-            
+            <div className="circle_desktop"></div>
+
             <img
               className="section_first-image"
               src={firstMobile}
               alt="first phone"
             ></img>
-              
           </div>
         </section>
         <section className="section_second">
           <div className="section_second-description">
-          <div className='circle_desktop-one'>
-             </div>
-             <div className='circle_desktop-two'>
-             </div>
+            <div className="circle_desktop-one"></div>
+            <div className="circle_desktop-two"></div>
             <h2>Experience products in AR</h2>
             <p>
               Have you tried Augmented Reality? Stop looking at boring galleries
               and start experiences each item
             </p>
-            <div className='circle_desktop-three'>
-             </div>
+            <div className="circle_desktop-three"></div>
             <div className="circle">
               <img
                 className="section_second-image"
@@ -106,12 +97,12 @@ function App() {
             </div>
           </div>
           <div className="section_therd-description">
-            <div className='section_therd-desktop'>
-            <h4>Original platform</h4>
-                <h2>Hottest deals around the web</h2>
-               <p>
-              Find the perfect gift or everyday goods right at your fingertips
-           </p>               
+            <div className="section_therd-desktop">
+              <h4>Original platform</h4>
+              <h2>Hottest deals around the web</h2>
+              <p>
+                Find the perfect gift or everyday goods right at your fingertips
+              </p>
             </div>
             <img
               className="section_therd-image"
@@ -122,27 +113,25 @@ function App() {
           <div className="section_fourth-description"></div>
         </section>
         <section className="section_third">
-          
-          <div className ="section_third-description">
+          <div className="section_third-description">
             <h2>Save time & money with exclusive offers from top stores</h2>
-            <button >Download App</button>
+            <button>Download App</button>
           </div>
-          
+
           <img
             className="section_fourth-image"
             src={fourthMobile}
             alt="four phone"
           ></img>
         </section>
-
       </main>
 
       <footer className="footer">
-        <div className="wrapper_dos">
+        <div className="wrapper">
           <section className="footer-content">
             <div className="footer-description">
               <h1>
-                Hey! Follow us on social media so you don’t miss any offer.
+                Hey! Follow us on social media so you don´t miss any offer.
               </h1>
             </div>
             <div className="footer-image">
