@@ -16,6 +16,10 @@ function App() {
         <div className="wrapper">
           <div className="header-nav">
             <img src={logo} alt="logo"></img>
+            <label htmlFor="menu" className="nav__label">
+              <img src={menuH} className="nav__img" alt="menu"></img>
+            </label>
+            <input type="checkbox" id="menu" className="nav__input"></input>
             <nav className="menu">
               <ul>
                 <li>
