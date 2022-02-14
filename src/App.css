@@ -486,7 +486,7 @@ p {
 
   .section_therd-description p {
     margin-top: 15px;
-    font-size: 29px;
+    font-size: clamp(29px, 100%, 30px);
   }
   .section_therd-description h4 {
     font-size: clamp(8px, 10vw, 21px);
