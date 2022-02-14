@@ -45,19 +45,29 @@ function App() {
           <section className="header-main">
             <div className="header-content">
               <h1>
-                <span>Shopping App for Gadgets and Gifs</span>
+                Shopping App for Gadgets and Gifs
               </h1>
               <p>
                 Get 10% off your first order when you spend over £40 on any
                 product!
               </p>
-              <a href="https://www.google.com/" className="button-secondary">
+              <a href="" className="button-secondary">
                 download app
               </a>
-            </div>
-            <div className="header-image">
+              
+                <div className="circle_cero"></div>
+              <div className="circle-one"></div>
               <img src={Saly4} alt="Sally-4"></img>
+              <div className="circle_three"></div>
+            
+{/*               
+                <div className="semicircle">
+               <img src={Saly4} alt="Sally-4"></img>
+              <div className="header-image"> </div>
+              </div> */}
+            <div className="circle-two"></div>
             </div>
+           
           </section>
         </div>
       </header>
