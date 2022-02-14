@@ -65,6 +65,7 @@ html {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  cursor: pointer;
 }
 .button-secondary{
   font: var(--button);
@@ -149,6 +150,10 @@ html {
 
 .header-main h1 span:first-child {
   display: block;
+}
+
+.header-nav button{
+  display: none;
 }
 
 .copyright {
@@ -348,6 +353,11 @@ p {
   .header-nav a{
     display: none;
   }
+  
+  .header-nav button{
+    display: block;
+  }
+
   .header-main{
     display: flex;
     gap: 32px;

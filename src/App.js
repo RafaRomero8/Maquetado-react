@@ -7,6 +7,7 @@ import Saly4 from "./assets/Sally-4.png";
 import Saly6 from "./assets/Saly-6.png";
 import logo from "./assets/Logo.png";
 import fourthMobile from "./assets/Saly-24.png";
+import menuH from "./assets/bx_bx-menu-alt-right.png";
 
 function App() {
   return (
@@ -33,14 +34,11 @@ function App() {
                 </li>
               </ul>
             </nav>
-            <a href="https://www.google.com/" className="button">
+            <button href="https://www.google.com/" className="button">
               download app
-            </a>
+            </button>
           </div>
           <section className="header-main">
-            <div className="header-image">
-              <img src={Saly4} alt="Sally-4"></img>
-            </div>
             <div className="header-content">
               <h1>
                 <span>Shopping App for Gadgets and Gifs</span>
@@ -52,6 +50,9 @@ function App() {
               <a href="https://www.google.com/" className="button-secondary">
                 download app
               </a>
+            </div>
+            <div className="header-image">
+              <img src={Saly4} alt="Sally-4"></img>
             </div>
           </section>
         </div>
